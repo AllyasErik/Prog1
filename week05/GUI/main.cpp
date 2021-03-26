@@ -53,10 +53,11 @@ int main()
 	Function sloping_cos_line(sloping_cos, rmin, rmax, origo, n_points, x_scale, y_scale);
 
 	Mark m {origo, 'O'};
+
 	win.attach(sloping_cos_line);
 	win.attach(cos_line);
+	win.attach(square_line);
 	win.attach(m);
-	win.attach(cos_line);
 	win.attach(text);
 	win.attach(slope_line);
 	win.attach(line);
